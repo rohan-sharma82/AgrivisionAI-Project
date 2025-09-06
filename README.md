@@ -53,8 +53,7 @@ AgriVision AI is an intelligent, multilingual web platform designed to empower f
 
 ### Development & Deployment
 - **🚀 Vercel** for seamless deployment and global CDN
-- **📦 pnpm/npm** for package management
-- **🔧 ESLint** + **Prettier** for code quality
+
 
 ## 🛠️ Installation & Setup
 
@@ -65,59 +64,7 @@ AgriVision AI is an intelligent, multilingual web platform designed to empower f
 - Supabase project
 - WeatherAPI key
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/rohan-sharma82/AgrivisionAI-Project.git
-cd AgrivisionAI-Project
-```
 
-### 2. Install Dependencies
-```bash
-npm install
-# or
-pnpm install
-# or
-yarn install
-```
-
-### 3. Environment Setup
-Create a `.env.local` file in the root directory:
-
-```env
-# Google AI Configuration
-GOOGLE_GENAI_API_KEY=your_google_ai_api_key
-
-# Supabase Configuration
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-
-# Weather API
-WEATHER_API_KEY=your_weather_api_key
-
-# Optional: For production
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-```
-
-### 4. Database Setup
-Set up your Supabase database with the required tables. Run the SQL migrations:
-
-```sql
--- Add your database schema here
--- (Include your actual migration files)
-```
-
-### 5. Start Development Server
-```bash
-npm run dev
-```
-
-The application will be available at `http://localhost:9002`
-
-### 6. Start AI Development Server (Optional)
-For AI flow development:
-```bash
-npm run genkit:dev
-```
 
 ## 📱 Usage
 
@@ -182,20 +129,7 @@ We welcome contributions from the community! Here's how you can help:
 ### Code of Conduct
 Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
 
-## 🚀 Deployment
 
-### Deploy to Vercel (Recommended)
-1. Connect your GitHub repository to Vercel
-2. Configure environment variables in Vercel dashboard
-3. Deploy automatically on every push to main branch
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rohan-sharma82/AgrivisionAI-Project)
-
-### Manual Deployment
-```bash
-npm run build
-npm start
-```
 
 ## 📊 Performance & Scalability
 
@@ -224,13 +158,6 @@ npm start
 - **🌱 Environmental**: Promotes sustainable farming practices
 - **💼 Economic**: Boosts agricultural sector contribution to GDP
 - **👥 Social**: Reduces digital divide in rural communities
-
-## 📚 Documentation
-
-- [API Documentation](docs/api.md)
-- [Deployment Guide](docs/deployment.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [Architecture Overview](docs/architecture.md)
 
 ## 🤔 FAQ
 
