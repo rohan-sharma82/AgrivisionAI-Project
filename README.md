@@ -13,7 +13,7 @@ AgriVision AI is an intelligent, multilingual web platform designed to empower f
 
 ## 🚀 Live Demo
 
-[Visit AgriVision AI](https://your-deployment-url.vercel.app) *(Update with your actual deployment URL)*
+[Visit AgriVision AI](https://your-deployment-url.vercel.app) *(Will Update Soon)*
 
 ## ✨ Features
 
